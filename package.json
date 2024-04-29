@@ -1,7 +1,7 @@
 {
   "name": "otoroshi-ts-types",
   "author": "Zwiterrion <etienne.anne@icloud.com>",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "```ts ```",
