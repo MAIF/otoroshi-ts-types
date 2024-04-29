@@ -4,7 +4,11 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "description": "```ts ```",
+  "description": "Otoroshi types for writing wasm plugin using Typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAIF/otoroshi-ts-types.git"
+  },
   "scripts": {
     "build": "tsc -p ."
   },
