@@ -324,19 +324,9 @@ export interface WasmPreRouteContext {
 
 export interface WasmPreRouteResponse {
   status: number;
+  error?: Boolean;
   headers?: { [key: string]: string };
   body?: string;
-  body_bytes?: number[];
-  body_base64?: string;
-  body_json?: any;
-  body_str?: string;
-}
-
-export interface WasmPreRouteError {
-  status: number;
-  error: Boolean;
-  headers?: { [key: string]: string };
-  body?: String;
   body_bytes?: number[];
   body_base64?: string;
   body_json?: any;
