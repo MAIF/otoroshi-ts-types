@@ -347,3 +347,14 @@ export interface WasmRequestHandlerResponse {
   body_json?: any;
   body_str?: string;
 }
+
+export interface WasmResponse {
+  status: number;
+  error?: Boolean;
+  headers?: { [key: string]: string };
+  body?: string;
+  body_bytes?: number[];
+  body_base64?: string;
+  body_json?: any;
+  body_str?: string;
+}
