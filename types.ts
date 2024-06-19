@@ -272,6 +272,8 @@ export interface WasmAccessValidatorResponse {
 }
 
 export interface WasmTransformerResponse {
+  url?: string;
+  method?: string;
   headers: { [key: string]: string };
   cookies: any;
   body_bytes?: number[];
