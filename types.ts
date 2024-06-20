@@ -241,7 +241,6 @@ export interface WasmSinkContext {
   snowflake?: string;
   request: RawRequest;
   config: any;
-  global_config: any;
   attrs: any;
   origin: string;
   status: number;
