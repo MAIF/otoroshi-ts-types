@@ -7,7 +7,7 @@ package.json
   "version": "1.0.0",
   "devDependencies": {
     "esbuild": "^0.17.9",
-    "otoroshi-ts-types": "0.0.3"
+    "otoroshi-ts-types": "1.0.2"
   }
 }
 ```
